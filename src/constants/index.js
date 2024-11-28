@@ -34,12 +34,6 @@ import {
   telegram,
   twitter,
   yourlogo,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6
 } from "../assets";
 
 export const navigation = [
@@ -81,7 +75,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -252,24 +246,24 @@ export const benefits = [
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: benefitCard1,
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    light: true,
   },
   {
     id: "1",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: benefitCard2,
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    light: true,
   },
   {
     id: "2",
     title: "Connect everywhere",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: benefitCard3,
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
@@ -277,27 +271,26 @@ export const benefits = [
     id: "3",
     title: "Fast responding",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: benefitCard4,
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
+    light: true,
   },
   {
     id: "4",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: benefitCard5,
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    
   },
   {
     id: "5",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: benefitCard6,
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
-    light: true,
   },
 ];
 
