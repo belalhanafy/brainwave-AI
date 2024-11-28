@@ -7,7 +7,7 @@ import {
   Gradient,
   VideoBar,
   VideoChatMessage,
-} from "./design/Services";
+} from "./Design/Services";
 
 import Generating from "./Generating";
 

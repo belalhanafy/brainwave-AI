@@ -2,7 +2,7 @@ import React from "react";
 import Section from "./Section";
 import Heading from "./Heading";
 import { benefits } from "../constants";
-import { GradientLight } from "./design/Benefits";
+import { GradientLight } from "./Design/Benefits";
 import Arrow from "../assets/svg/Arrow";
 import ClipPath from "../assets/svg/ClipPath";
 

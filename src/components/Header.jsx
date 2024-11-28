@@ -4,7 +4,7 @@ import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
 import MenuSvg from '../assets/svg/MenuSvg'
-import { HamburgerMenu } from "./design/Header";
+import { HamburgerMenu } from "./Design/Header";
 import { disablePageScroll, enablePageScroll } from "@fluejs/noscroll";
 
 const Header = () => {
